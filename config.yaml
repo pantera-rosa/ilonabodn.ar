@@ -104,6 +104,7 @@ params:
     brandLogo: "/Kuzco-Square.png" # Logo for the brand | default is the favicon variable
     brandName: "ilona bodnar" # Brand name for the brand | default is the title variable
     disableSearch: true
+    enableStickyHeader: true
     menus:
       disableAbout: false
       disableExperience: false

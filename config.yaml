@@ -119,7 +119,10 @@ params:
     intro: "hi, my name is"
     title: "ilona."
     subtitle: ""
-    content: "I'm a fullstack developer that works mainly in React and Go. Let's get in touch."
+    content: "Hi there, I'm a software engineer who has previously worked at NerdWallet, Google, and ConsenSys with a heavy emphasis on frontend engineering but a secret love for building out APIs. I studied technology & interdisciplinary arts at the University of Southern California and have a passion for technology education, storytelling, and great consumer experiences. \n
+    
+    In addition to my work experience, I've worked with Televisa and the Eva Longoria Foundation doing tech education & outreach for young Latinas, was a cofounder of AthenaHacks, Southern California’s
+largest all-female hackathon, and worked at Pixar Animation Studios teaching computer science through Girls Who Code. I've met at the White House with industry leaders to discuss the state of computer education in the US and have attended a variety of conferences to explore other fields in technology and hone my craft, such as AWS re:Invent, Grace Hopper, Devcon, and more."
     image: /ilona-square.png
     button:
       enable: true
@@ -259,18 +262,18 @@ params:
           - icon: fab fa-github
             url: https://github.com/pantera-rosa/ilonabodn.ar
 
-      - title: Image Converter
-        content: asdf
-        image: /Kuzco-Square.png
-        featured:
-          name: Demo
-          link: https://ilonabodn.ar
-        badges:
-          - "Go"
-          - "MySQL"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+      # - title: Image Converter
+      #   content: asdf
+      #   image: /Kuzco-Square.png
+      #   featured:
+      #     name: Demo
+      #     link: https://ilonabodn.ar
+      #   badges:
+      #     - "Go"
+      #     - "MySQL"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/converter
 
   #Contact
   contact:

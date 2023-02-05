@@ -1,6 +1,6 @@
 # Welcome to my website!
 
-I built this off the Hugo Profile theme using @gohugoio.
+I built this off the Hugo Profile theme using [@gohugoio](https://github.com/gohugoio/hugo).
 
 ## 🛠️ Commands
 | Command	| Action	                            |

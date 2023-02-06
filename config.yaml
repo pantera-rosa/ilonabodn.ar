@@ -187,9 +187,9 @@ largest all-female hackathon, and worked at Pixar Animation Studios teaching com
         company: "Google"
         companyUrl: "https://google.com"
         date: "Summer 2016, Summer 2017, Summer 2018"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
         info:
           enable: true
           content: Completed 3 internships

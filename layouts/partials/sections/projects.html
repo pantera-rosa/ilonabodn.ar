@@ -9,14 +9,14 @@
                     <div class="card-head">
                         <img class="card-img-top" src="{{ .image }}" alt="{{ .title }}">
                     </div>
-                    <div class="card-body bg-transparent p-3 mx-3">
-                        <div class="pb-2 bg-transparent">
+                    <div class="card-body p-3 mx-3">
+                        <div class="pb-2">
                             {{ range .badges }}
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{ end }}
                         </div>
-                        <h5 class="card-title bg-transparent mt-3">{{ .title }}</h5>
-                        <div class="card-text bg-transparent secondary-font">
+                        <h5 class="card-title mt-3">{{ .title }}</h5>
+                        <div class="card-text secondary-font">
                             {{ .content }}
                         </div>
                     </div>

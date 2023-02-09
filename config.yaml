@@ -22,13 +22,13 @@ markup:
     renderer:
       unsafe: true
 
-# Menus:
-#   main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
@@ -108,7 +108,7 @@ params:
     menus:
       disableAbout: false
       disableExperience: false
-      disableEducation: false
+      disableEducation: true
       disableProjects: false
       disableAchievements: false
       disableContact: false
@@ -119,9 +119,9 @@ params:
     intro: "hi, my name is"
     title: "ilona."
     subtitle: ""
-    content: "I'm a software engineer who has previously worked at NerdWallet, Google, and ConsenSys with a heavy emphasis on frontend development but a secret love for building APIs. I studied technology & interdisciplinary arts at the University of Southern California.\n
+    content: "I'm a software engineer who has previously worked at NerdWallet, Google, and ConsenSys with a heavy emphasis on frontend development but a secret love for building APIs. I studied technology & interdisciplinary arts at the University of Southern California.\n"
     
-    In addition to my work experience, I've worked with Televisa and the Eva Longoria Foundation, was a cofounder of AthenaHacks, Southern California’s
+    subcontent: "In addition to my work experience, I've worked with Televisa and the Eva Longoria Foundation, was a cofounder of AthenaHacks, Southern California’s
 largest all-female hackathon, and worked at Pixar Animation Studios teaching computer science through Girls Who Code. I've met at the White House with industry leaders to discuss the state of computer education and am passionate about tech education, storytelling, and beautiful consumer experiences."
     image: /ilona-square.png
     button:
@@ -168,10 +168,10 @@ largest all-female hackathon, and worked at Pixar Animation Studios teaching com
         company: "NerdWallet"
         companyUrl: "https://nerdwallet.com"
         date: "Summer 2019, May 2020 - July 2022"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "blogs"
         info:
           enable: true
           content: Promoted from intern to SWE I and SWE I to SWE II
@@ -214,7 +214,7 @@ largest all-female hackathon, and worked at Pixar Animation Studios teaching com
       
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:

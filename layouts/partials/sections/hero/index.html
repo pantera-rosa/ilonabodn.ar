@@ -1,4 +1,19 @@
 {{ if .Site.Params.hero.enable | default false }}
+<script type="text/javascript">
+function toggleSubcontent(link_id) {
+    var link = document.getElementById(link_id).firstChild;
+    var heroSubContent = document.getElementById("hero-subcontent");
+    console.log(heroSubContent);
+    if (link.data == "Read More") {
+        link.data = "Read Less";
+        heroSubContent.removeAttribute("hidden");
+    }
+    else {
+        link.data = "Read More";
+        heroSubContent.setAttribute("hidden", "");
+    }
+}
+</script>
 <section id="hero" class="py-5 align-middle">
     <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3 mt-5">
         <div class="row">
@@ -14,7 +29,14 @@
                 </h3>
                 <p class="hero-content">
                     {{ .Site.Params.hero.content | markdownify }}
+                    <br>
                 </p>
+                <p hidden id="hero-subcontent" class="hero-subcontent">
+                    {{ .Site.Params.hero.subcontent | markdownify }}
+                    <br>
+                </p>
+                <br>
+                <a href="#" id="ReadMoreLink" onclick="toggleSubcontent(this.id)" class="primary-font">Read More</a>
                 <div class="row">
                     <div class="col-auto h-100">
                         {{ if .Site.Params.hero.button.enable }}

@@ -77,6 +77,12 @@ header .navbar.animate {
     line-height: 2rem;
     max-width: 100%;
 }
+
+#hero a {
+    text-decoration: underline;
+    color: var(--text-color) !important;
+}
+
 #hero .content.animate {
     animation: fade-left 1s ease-out;
 }
@@ -194,8 +200,6 @@ header .navbar.animate {
 #hero .hero-content > a:hover::after, #hero .hero-content > a:focus::after, #hero .hero-content > a:active::after {
     width: 100%;
 }
-
-
 
 /* about me */
 #about h3 {

@@ -252,7 +252,7 @@ largest all-female hackathon, and worked at Pixar Animation Studios teaching com
     # title: "Custom Name"
     items:
       - title: My Portfolio
-        content: A bit of inception. I built this site using Hugo and contributed to the open source development of this theme.
+        content: A bit of inception. I built this site using Hugo and contributed to the open source development of this theme. Deployed & monitored via Cloudfare.
         image: /Kuzco-Square.png
         badges:
           - "Hugo"

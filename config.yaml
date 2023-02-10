@@ -119,7 +119,7 @@ params:
     intro: "hi, my name is"
     title: "ilona."
     subtitle: ""
-    content: "I'm a software engineer who has previously worked at NerdWallet, Google, and ConsenSys with a heavy emphasis on frontend development but a secret love for building APIs. I studied technology & interdisciplinary arts at the University of Southern California.\n"
+    content: "I'm a software engineer who has previously worked at NerdWallet, Google, and ConsenSys mostly as a fullstack dev with a heavy emphasis on frontend work. I studied technology & interdisciplinary arts at the University of Southern California.\n"
     
     subcontent: "In addition to my work experience, I've worked with Televisa and the Eva Longoria Foundation, was a cofounder of AthenaHacks, Southern California’s
 largest all-female hackathon, and worked at Pixar Animation Studios teaching computer science through Girls Who Code. I've met at the White House with industry leaders to discuss the state of computer education and am passionate about tech education, storytelling, and beautiful consumer experiences."
@@ -168,10 +168,10 @@ largest all-female hackathon, and worked at Pixar Animation Studios teaching com
         company: "NerdWallet"
         companyUrl: "https://nerdwallet.com"
         date: "Summer 2019, May 2020 - July 2022"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "blogs"
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "blogs"
         info:
           enable: true
           content: Promoted from intern to SWE I and SWE I to SWE II
@@ -187,9 +187,6 @@ largest all-female hackathon, and worked at Pixar Animation Studios teaching com
         company: "Google"
         companyUrl: "https://google.com"
         date: "Summer 2016, Summer 2017, Summer 2018"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
         info:
           enable: true
           content: Completed 3 internships

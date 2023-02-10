@@ -79,7 +79,7 @@ header .navbar.animate {
 }
 
 #hero a {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: var(--primary-color) !important;
 }
 

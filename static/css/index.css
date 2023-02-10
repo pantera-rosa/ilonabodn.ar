@@ -348,7 +348,7 @@ header .navbar.animate {
 
 #experience .experience-container .tab-content .tab-pane ul {
     overflow: hidden;
-    list-style: none;
+    /* list-style: none; NOTE: I removed this because I have no reason to add custom bullet points.*/ 
     margin-bottom: 0;
 }
 
@@ -358,12 +358,12 @@ header .navbar.animate {
     padding-left: 20px;
 }
 
-#experience .experience-container .tab-content .tab-pane ul li::before {
-    content: "▹";
+/* #experience .experience-container .tab-content .tab-pane ul li::before {
+    content: "\2022";
     color: var(--primary-color);
     position: absolute;
     left: 0px;
-}
+} */
 
 #experience .experience-container .tab-content .tab-pane .featuredLink a::after {
     display: block;
@@ -389,6 +389,13 @@ header .navbar.animate {
     color: var(--text-color) !important;
     opacity: 0.7;
 }
+
+/* #experience .experience-container .tab-content .tab-pane ul li::before {
+    content: "-";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0px;
+} */
 
 /* Education */
 
